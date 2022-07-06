@@ -5,6 +5,10 @@ body {
 section {
   height: 670px;
   padding-bottom: 150px;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 .top-banner {
   background-image: linear-gradient(
@@ -62,20 +66,19 @@ section {
 
 .boxp {
   display: flex;
-  margin: 0 auto;
-  position: absolute;
-  padding-left: 400px;
-  padding-top:50px ;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
 }
-.box{
-    background: #FAFAFA;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    color: #707070;
-    font-weight: bold;
-    text-align: center;
+.box {
+  background: #fafafa;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  color: #707070;
+  font-weight: bold;
+  text-align: center;
 }
 #box{
     font-family: "Inter", sans-serif;
@@ -84,4 +87,25 @@ section {
     background: #FFEEEE;
     border: 2px solid #FF5959;
     border-radius: 5px;
+}
+.form{
+  text-align: center;
+  border-bottom: 1px solid #DADADA ;
+
+}
+
+input{
+  border: none;
+  text-align: center;
+  
+}
+input,
+input::placeholder {
+    font: 20px/3 sans-serif;
+    color:#B3B3B3 ;
+    ;
+}
+
+.btn{
+  padding-top: 50px;
 }
