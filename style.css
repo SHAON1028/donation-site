@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+section {
+  height: 670px;
+  padding-bottom: 150px;
+}
+.top-banner {
+  background-image: linear-gradient(
+      360deg,
+      #121212 0%,
+      rgba(18, 18, 18, 0) 100%
+    ),
+    url(images/donation1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.h1-top {
+  color: white;
+  font-size: 60px;
+}
+.p-top {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.anchor-button {
+  text-decoration: none;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 20px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.center-text {
+  text-align: center;
+}
+
+.mid donation {
+  margin: 0 auto;
+}
+.donate {
+  text-align: center;
+  padding-top: 100px;
+}
+.h1-mid {
+  color: #121212;
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+}
+.p-mid {
+  color: #707070;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.boxp {
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  padding-left: 400px;
+  padding-top:50px ;
+}
+.box{
+    background: #FAFAFA;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: #707070;
+    font-weight: bold;
+    text-align: center;
+}
+#box{
+    font-family: "Inter", sans-serif;
+    color: #FF5959;
+    font-size: 30px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
