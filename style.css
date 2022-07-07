@@ -4,11 +4,11 @@ body {
 }
 section {
   height: 670px;
-  padding-bottom: 150px;
+
   display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .top-banner {
   background-image: linear-gradient(
@@ -80,32 +80,113 @@ flex-direction: column;
   font-weight: bold;
   text-align: center;
 }
-#box{
-    font-family: "Inter", sans-serif;
-    color: #FF5959;
-    font-size: 30px;
-    background: #FFEEEE;
-    border: 2px solid #FF5959;
-    border-radius: 5px;
+#box {
+  font-family: "Inter", sans-serif;
+  color: #ff5959;
+  font-size: 30px;
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
 }
-.form{
+.form {
   text-align: center;
-  border-bottom: 1px solid #DADADA ;
-
+  border-bottom: 1px solid #dadada;
 }
 
-input{
+input {
   border: none;
   text-align: center;
-  
 }
 input,
 input::placeholder {
-    font: 20px/3 sans-serif;
-    color:#B3B3B3 ;
-    ;
+  font: 20px/3 sans-serif;
+  color: #b3b3b3;
 }
 
-.btn{
+.btn {
   padding-top: 50px;
+}
+
+.items {
+  display: flex;
+}
+.itm1 {
+  background: rgba(79, 157, 166, 0.1);
+  border: rgba(79, 157, 166, 0.1);
+  border-radius: 10px;
+
+  width: 360px;
+  height: 352px;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.itm2 {
+  background: rgba(255, 89, 89, 0.1);
+  border: rgba(255, 89, 89, 0.1);
+  border-radius: 10px;
+
+  width: 360px;
+  height: 352px;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.itm3 {
+  background: #eab676;
+  border: 2px solid #90ee90;
+  border-radius: 10px;
+
+  width: 360px;
+  height: 352px;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.subs {
+  display: flex;
+  background: #fff4d6;
+  border: 2px solid #fff4d6;
+  width: 50%;
+  height: 120px;
+  align-items: center;
+  padding-left: 400px;
+}
+.subs input {
+  background: #d9d9d9;
+  border: 2px solid #d9d9d9;
+  border-top-left-radius: 5px;
+
+  width: 275px;
+  height: 48px;
+}
+.subs button {
+  background: #ff5959;
+  border: 2px solid#FF5959;
+  border-top-right-radius: 5px;
+  width: 157px;
+  height: 54px;
+  color: white;
+}
+footer {
+  background: #121212;
+  height: 200px
+}
+footer h1{
+  padding-top: 70px;
+  text-align: center;
+  color: #ff5959;
+}
+footer p {
+  
+  text-align: center;
+  color: white;
+}
+.half-width{
+  width:40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+p span{
+  color: red;
+  font-size: 20px;
+  font-weight: bolder;
 }
